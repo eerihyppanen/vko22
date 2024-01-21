@@ -30,7 +30,7 @@ public class App
 
                     case 1:
 
-                        System.out.println("Mitä siili sanoo?");
+                        System.out.println("Mitä siili sanoo:");
                         String speak = sc.nextLine();
                         hedgehog.speak(speak);
                         
