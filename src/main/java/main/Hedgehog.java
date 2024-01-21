@@ -40,7 +40,7 @@ public void run(int laps)   {
 
 public void speak(String words) {
     if (words.isEmpty())    {
-        System.out.println("Olen " + name + " ja ikäni on " + age + ", mutta antaisitko silti syötteen?");
+        System.out.println("Olen " + name + " ja ikäni on " + age +" vuotta, mutta antaisitko silti syötteen?");
     } 
         else {System.out.println(name + ": " + words );
         }
